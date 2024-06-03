@@ -432,5 +432,5 @@ def identify():
                 }
                 return details_1
 
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+    #app.run()
