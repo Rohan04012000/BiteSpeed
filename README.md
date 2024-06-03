@@ -1,5 +1,7 @@
 # BiteSpeed
-
+1. Using Python, flask framework and relational database (sqlite3). 
+2. customers.db and customer table is used to storing the records of customers.
+   
 # Endpoint where service is live, send the request as ['POST'] request. Use Postman or any other service for sending request..
 https://bitespeed-3.onrender.com/identify
 
