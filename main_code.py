@@ -5,26 +5,6 @@ from collections import OrderedDict
 
 app = Flask(__name__)
 
-"""
-conn = sqlite3.connect('customers.db')
-try:
-    conn.execute('''
-            create table if not exists customer (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                phoneNumber TEXT,
-                email TEXT,
-                linkedId INTEGER,
-                linkPrecedence TEXT,
-                createdAt DATETIME,
-                updatedAt DATETIME,
-                deletedAt DATETIME
-            )
-    ''')
-    conn.commit()
-except:
-    print("table already created")
-conn.close()
-"""
 #Dropping the whole table.
 @app.route('/identify/<clean>', methods = ['GET','POST'])
 def cleaning(clean):
