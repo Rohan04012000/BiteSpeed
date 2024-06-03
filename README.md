@@ -1,9 +1,9 @@
 # BiteSpeed
 
-# Endpoint where service is live, send the request as ['POST'] request.
+# Endpoint where service is live, send the request as ['POST'] request. Use Postman or any other service for sending request..
 https://bitespeed-3.onrender.com/identify
 
-# Endpoint for deleting the data by sending it as ['GET'] request of the table and starting fresh
+# Endpoint for deleting the data by sending it as ['GET'] request of the table and starting fresh.
 https://bitespeed-3.onrender.com/identify/clean
 
 # Notice:
