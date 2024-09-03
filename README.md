@@ -1,4 +1,4 @@
-# BiteSpeed - Endpoints are no more deployed, run the code on loacl machine and explore the project.
+# BiteSpeed - Endpoints are no more deployed, run the code on local machine and explore the project.
 1. Using Python, flask framework and relational database (sqlite3). 
 2. customers.db and customer table is used to storing the records of customers.
    
